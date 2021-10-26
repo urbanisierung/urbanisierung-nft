@@ -3,7 +3,11 @@ import { NftType } from '../types/nft.type'
 export const SkunkWorksNft: NftType = {
   title: `Skunk Works`,
   subtitle: `Generation 2`,
-  subtitles: [`0/2k minted`, `(launching 2021/10/30)`],
+  subtitles: [
+    `0/2k minted`,
+    `launching around 2021/10/30`,
+    `subscribe to get notified!`,
+  ],
   links: {
     opensea: {
       href: `https://opensea.io/collection/skunk-works`,
